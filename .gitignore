@@ -1,0 +1,27 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables and credentials
+.env
+.env.*
+
+# Keep the example environment file
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Private Tata Power dataset
+data/Tata_Power(Sept).csv
+data/Tata_Power*.csv
+data/Tata_Power(April).csv
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Ignore raw data
+data/raw/*
+!data/raw/.gitkeep
